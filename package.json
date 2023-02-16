@@ -1,0 +1,10 @@
+{
+  "name": "json-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "json-server --watch users.json",
+    "ngrok": "ngrok.exe http 3000"
+  },
+  "keywords": []
+}

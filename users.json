@@ -1,0 +1,74 @@
+{
+    "users": [
+        {
+            "userID": 1,
+            "userLoginId": "ac",
+            "userPassword": "sociis",
+            "userName": "faucibus",
+            "userRole": "eros viverra"
+        },
+        {
+            "userID": 2,
+            "userLoginId": "ante",
+            "userPassword": "turpis",
+            "userName": "volutpat",
+            "userRole": "turpis donec"
+        },
+        {
+            "userID": 3,
+            "userLoginId": "sed",
+            "userPassword": "iaculis",
+            "userName": "ultrices",
+            "userRole": "sapien non"
+        },
+        {
+            "userID": 4,
+            "userLoginId": "convallis",
+            "userPassword": "vel",
+            "userName": "nisl",
+            "userRole": "nullam porttitor lacus"
+        },
+        {
+            "userID": 5,
+            "userLoginId": "magnis",
+            "userPassword": "praesent",
+            "userName": "id",
+            "userRole": "sapien cum sociis natoque"
+        },
+        {
+            "userID": 6,
+            "userLoginId": "adipiscing",
+            "userPassword": "ultrices",
+            "userName": "blandit",
+            "userRole": "pretium nisl"
+        },
+        {
+            "userID": 7,
+            "userLoginId": "nulla",
+            "userPassword": "quisque",
+            "userName": "ullamcorper",
+            "userRole": "nisl aenean lectus pellentesque"
+        },
+        {
+            "userID": 8,
+            "userLoginId": "odio",
+            "userPassword": "morbi",
+            "userName": "amet",
+            "userRole": "ut erat"
+        },
+        {
+            "userID": 9,
+            "userLoginId": "cursus",
+            "userPassword": "eget",
+            "userName": "turpis",
+            "userRole": "curabitur convallis duis"
+        },
+        {
+            "userID": 10,
+            "userLoginId": "odio",
+            "userPassword": "metus",
+            "userName": "porttitor",
+            "userRole": "volutpat"
+        }
+    ]
+}
