@@ -1,0 +1,37 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "username": "dignissim",
+      "password": "nam",
+      "avt": "https://robohash.org/idetet.jpg?size=50x50&set=set1"
+    },
+    {
+      "id": 2,
+      "username": "orci",
+      "password": "ut",
+      "avt": "https://robohash.org/quasivoluptasquo.jpg?size=50x50&set=set1"
+    },
+    {
+      "id": 3,
+      "username": "nunc",
+      "password": "quam",
+      "avt": "https://robohash.org/quosfugitodit.jpg?size=50x50&set=set1"
+    },
+    {
+      "id": 4
+    },
+    {
+      "username": "luctus",
+      "password": "justo",
+      "avt": "ridiculus",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "username": "luctus",
+      "password": "justo",
+      "avt": "ridiculus"
+    }
+  ]
+}
