@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Net;
+using Microsoft.AspNetCore.Mvc;
 using RestFullAPI.Dto;
 using RestFullAPI.RequestModels;
 using RestFullAPI.Services;
-using System.Net;
 
 namespace RestFullAPI.Controllers;
 
@@ -25,9 +25,10 @@ public class AcountsController : ControllerBase
         return Ok(accounts);
     }
 
-    [HttpPut("{id}/avatar")]
-    public async Task<ActionResult> UploadAvatar([FromForm] UploadAvatarReqModel reqModel)
+    [HttpPut("register")]
+    public async Task<ActionResult<AccountDto>> Register([FromForm] UploadAvatarReqModel reqModel)
     {
-        return Ok();
+        var accountDto = await _accountService.RegisterAsync(reqModel);
+        return Ok(accountDto);
     }
 }
