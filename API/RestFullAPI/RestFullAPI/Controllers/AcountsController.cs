@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RestFullAPI.Dto;
+using RestFullAPI.RequestModels;
 using RestFullAPI.Services;
 using System.Net;
 
@@ -22,5 +23,11 @@ public class AcountsController : ControllerBase
     {
         var accounts = await _accountService.GetAccounts();
         return Ok(accounts);
+    }
+
+    [HttpPut("{id}/avatar")]
+    public async Task<ActionResult> UploadAvatar([FromForm] UploadAvatarReqModel reqModel)
+    {
+        return Ok();
     }
 }
